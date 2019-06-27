@@ -1,0 +1,487 @@
+{
+  "TR":{
+    "anime": {
+      "name": "İsim",
+      "status": "Durum",
+      "synonyms": "Diğer adları",
+      "MALrating": "Reyting",
+      "episodes": "Bölüm sayısı",
+      "type": "Türü",
+      "tags": "Etiketler",
+      "episodetime": "Bölüm uzunluğu",
+      "MALladder": "MAL Sıralaması",
+      "source": "Kaynak",
+      "agerating": "Yaş kısıtlaması",
+      "MALpage": "Animenin MAL sayfası",
+      "trailer": "Animenin fragmanı",
+      "warning": "Eğer komuttan yanıt gelmiyor ise aradığınız şey bulunamadı demektir",
+      "nosynonym": "Diğer ad Yok",
+      "notrailer": "Animenin fragmanı yok",
+      "footer": "MAL Sitesinden veriler",
+      "emptysearch": "Aramak için birşey gir!"
+    },
+    "afk": {
+      "reason": "AFK olma sebebini belirtin.",
+      "confirmed": "Başarıyla AFK moduna geçtiniz. Çıkmak için bir mesaj atmanız yeterlidir."
+    },
+    "ban": {
+      "member": "Banlanacak kullanıcıyı belirtin.",
+      "reason": "Kullanıcıyı banlama sebebini belirtin.",
+      "memberSend": "%guild% sunusucunda %reason% sebebiyle banlandın.",
+      "guildSend": "%member% kullanıcısı %reason% sebebiyle banlandı."
+    },
+    "date": {
+      "spring": "İlk Bahar",
+      "summer": "Yaz",
+      "autmn": "Son Bahar",
+      "winter": "Kış",
+      "date": "Tarih",
+      "currentSeason": "Mevsim",
+      "fullDate": "Tam Tarih"      
+    },
+    "kick": {
+      "member": "Kicklenecek kullanıcıyı belirtin.",
+      "reason": "Kullanıcıyı kickleme sebebini belirtin.",
+      "memberSend": "%guild% sunusucunda %reason% sebebiyle kicklendin.",
+      "guildSend": "%member% kullanıcısı %reason% sebebiyle kicklendi."
+    },
+    "mute": {
+      "member": "Susturulacak kullanıcıyı belirtin.",
+      "muteTime": "Susturma süresini belirtin.",
+      "role": "`Muted` rolünü bulamadım.",
+      "mutedMsg": "%member% kullanıcısı susturuldu.",
+      "unmutedMsg": "%member% kullanıcısının susturması kaldırıldı."
+    },
+    "purge": {
+      "count": "1 ile 100 arasında silinecek mesaj miktarını belirtin.",
+      "error": "Mesajlar silinemedi: %err%"
+    },
+    "help": {
+      "description1": "Komutlar hakkında daha fazla bilgi için `%help% <command>` komutunu kullanın.",
+      "description2": "Örnek: %example%"
+    },
+    "webshot": {
+      "url": "Lütfen bir website URL'si belirtin."
+    },
+    "slowmode":{
+    "number": "Lütfen bir sayı belirtin.",
+    "limit":"Limit maksimum 10 olabilir.",
+    "confirmed":"Slowmode %limit% olarak ayarlandı."
+    }
+  },
+  "EN": {
+    "anime": {
+      "name": "Name",
+      "status": "Status",
+      "synonyms": "Synonym",
+      "MALrating": "MAL Rating",
+      "episodes": "Episode count",
+      "type": "Type",
+      "tags": "Tags",
+      "episodetime": "Episode time",
+      "MALladder": "MAL Anime Rating",
+      "source": "Source",
+      "agerating": "Age rating",
+      "MALpage": "Anime's MAL Page",
+      "trailer": "Trailer",
+      "warning": "If the command doesnt return a value that means your search didn't match with anything",
+      "nosynonym": "This anime doesnt have any synonyms",
+      "notrailer": "No trailer for this anime.",
+      "footer": "Data from MAL website"
+    },
+    "afk": {
+      "reason": "Please specify a reason to be AFK.",
+      "confirmed": "I've set you as AFK. If anyone mentions you while you're away, I'll let them know. AFK mode will be disabled once you're back and send a message anywhere."
+    },
+    "ban": {
+      "member": "Specify the user that you want to ban.",
+      "reason": "Specify the reason that the user is going to be banned for.",
+      "memberSend": "You have been banned in %guild% Reason: %reason%",
+      "guildSend": "Successfully banned %member% for %reason%"
+    },
+    "kick": {
+      "member": "Specify the user that you want to kick.",
+      "reason": "Specify the reason that the user is going to be kicked for.",
+      "memberSend": "You have been kicked in %guild% Reason: %reason%",
+      "guildSend": "Successfully kicked %member% for %reason%"
+    },
+    "date": {
+      "spring": "Spring",
+      "summer": "Summer",
+      "autmn": "Autumn",
+      "winter": "Winter",
+      "date": "Date",
+      "currentSeason": "Current Season",
+      "fullDate": "Full Date"
+    },
+    "mute": {
+      "member": "Select the member that you want to mute silly.",
+      "muteTime": "Specify the mute time.",
+      "role": "I can't find `Muted` role.",
+      "mutedMsg": "%member% is muted.",
+      "unmutedMsg": "%member% is unmuted."
+    },
+    "purge": {
+      "count": "Please provide a number between 1 and 100 for the number of messages to delete.",
+      "error": "Couldn't delete messages because of: %err%"
+    },
+    "help": {
+      "description1": "For more informations about a command use, `%help% <command>`",
+      "description2": "Example %example%"
+    },
+    "webshot": {
+      "url": "Please specify a website URL."
+    },
+    "slowmode":{
+    "number": "Please specify a number.",
+    "limit":"The limit, can be a maximum of 10.",
+    "confirmed":"The limit was succesfuly set to %limit% second."
+    }
+  },
+  "DE": {
+    "anime": {
+      "name": "Name",
+      "status": "Status",
+      "synonyms": "Synonym",
+      "MALrating": "MAL Rating",
+      "episodes": "Episode count",
+      "type": "Type",
+      "tags": "Tags",
+      "episodetime": "Episode time",
+      "MALladder": "MAL Anime Rating",
+      "source": "Source",
+      "agerating": "Age rating",
+      "MALpage": "Anime's MAL Page",
+      "trailer": "Trailer",
+      "warning": "Wenn der Befehl keinen Wert zurückgibt, bedeutet dies, dass Ihre Suche mit nichts übereinstimmt",
+      "nosynonym": "This anime doesnt have any synonyms",
+      "notrailer": "No trailer for this anime.",
+      "footer": "Data from MAL website"
+    },
+    "afk": {
+      "reason": "Bitte geben Sie einen Grund an, um AFK zu sein.",
+      "confirmed": "Ich habe dich als AFK festgelegt. Wenn jemand Sie erwähnt, während Sie weg sind, werde ich sie wissen lassen. Der AFK Modus wird deaktiviert, sobald Sie zurück sind und eine Nachricht an einen beliebigen Ort senden."
+    },
+    "ban": {
+      "member": "Geben Sie den Benutzer an, den Sie sperren möchten.",
+      "reason": "Geben Sie den Grund an, aus dem der Benutzer gesperrt werden soll.",
+      "memberSend": "Du wurdest gesperrt in %guild% Grund: %reason%",
+      "guildSend": "Erfolgreich gebannt %member% für %reason%"
+    },
+    "kick": {
+      "member": "Geben Sie den Benutzer an, den Sie kicken möchten.",
+      "reason": "Geben Sie den Grund an, für den der Benutzer gekickt werden soll.",
+      "memberSend": "Du wurdest reingelegt %guild% Grund: %reason%",
+      "guildSend": "Erfolgreich getreten %member% für %reason%"
+    },
+    "date": {
+      "spring": "Frühling",
+      "summer": "Sommer",
+      "autmn": "Herbst",
+      "winter": "Winter",
+      "date": "Datum",
+      "currentSeason": "Jahreszeit",
+      "fullDate": "Vollständiges datum"      
+    },
+    "mute": {
+      "member": "Wählen Sie das Mitglied aus, das Sie stumm schalten möchten.",
+      "muteTime": "Geben Sie die Stummschaltzeit an.",
+      "role": "Ich kann die Rolle `Muted` nicht finden.",
+      "mutedMsg": "%member% ist stumm geschaltet.",
+      "unmutedMsg": "%member% ist nicht stumm geschaltet."
+    },
+    "purge": {
+      "count": "Geben Sie eine Zahl zwischen 1 und 100 ein, um die Anzahl der zu löschenden Nachrichten anzugeben.",
+      "error": "Nachrichten konnten aus folgenden Gründen nicht gelöscht werden: %err%"
+    },
+    "help": {
+      "description1": "für mehr Informationen zu einem Befehl ,benutzen `%help% <command>`",
+      "description2": "Exempel %example%"
+    },
+    "webshot": {
+      "url": "Geben Sie eine Website-URL bitte."
+    },
+    "slowmode":{
+      "number": "Geben Sie eine Nummer an bitte.",
+      "limit":"Das Limit kann maximal 10 betragen.",
+      "confirmed":"Das Limit wurde erfolgreich auf %limit% second gesetzt."
+    }
+  },
+  "AR": {
+    "anime": {
+      "name": "الاسم",
+      "status": "الحالة",
+      "synonyms": "synonyms",
+      "MALrating": "MAL تقييم",
+      "episodes": "عدد الحلقات",
+      "type": "النوع",
+      "tags": "الاصناف",
+      "episodetime": "المدة الاجمالية للحلقة الواحدة",
+      "MALladder": "MAL Anime تقييم",
+      "source": "المصادر",
+      "agerating": "تقييم العمر",
+      "MALpage": "صفحة Animeال MAL في موقع",
+      "trailer": "دعايته",
+      "warning": "If the command doesnt return a value that means your search didn't match with anything",
+      "nosynonym": "This anime doesnt have any synonyms",
+      "notrailer": "No trailer for this anime.",
+      "footer": "Data from MAL website"
+    },
+    "afk": {
+      "reason": ".يرجى تحديد السبب لتكون بعيدا عن لوحة المفاتيح",
+      "confirmed": ".لقد حددت لك وضعية بعيدا عن لوحة المفاتيح. إن ذكرك أي شخص خلال غيابك، سأعلمهم انك غير موجود. سيتم تعطيل وضع بعيدا عن لوحة المفاتيح بمجرد عودتك وإرسال رسالة في أي مكان"
+    },
+    "ban": {
+      "member": ".حدد العضو الذي تريد حظره",
+      "reason": ".حدد سبب حظر العضو",
+      "memberSend": "%reason% :لسبب %guild% لقد تم حظرك من",
+      "guildSend": "%reason% لسبب  %member% تم حظر العضو"
+    },
+    "kick": {
+      "member": ".حدد العضو الذي تريد طرده",
+      "reason": ".حدد سبب طرد العضو",
+      "memberSend": "%reason% :لسبب %guild%قد تم طرضدك من",
+      "guildSend": "%reason% :لسبب %member% تم طرد العضو"
+    },
+    "date": {
+      "spring": "الربيع",
+      "summer": "الصيف",
+      "autmn": "الخريف",
+      "winter": "الشتاء",
+      "date": "التاريخ",
+      "currentSeason": "الفصل الحالي",
+      "fullDate": "التاريخ الكامل"      
+    },
+    "mute": {
+      "member": ".حدد العضو الذي تريد كتمه",
+      "muteTime": ".حدد الوقت المؤقت الذي تريد وضعه لهذا العضو",
+      "role": "لا أستطيع العثور على الدور `Muted`.",
+      "mutedMsg": "تم كتم العضو %member% بنجاح.",
+      "unmutedMsg": "تم الغاء كتم العضو %member% بنجاح."
+    },
+    "purge": {
+      "count": "اختر رقماً من 1 إلى 100 لعدد الرسائل المراد حذفها.",
+      "error": "لم اتمكن من حذف الرسائل بسبب: %err%"
+    },
+    "help": {
+      "description1": "للمزيد من المعلومات حول احدى الأوامر، استخدم `%help% <command>`.",
+      "description2": "مثال: %example%"
+    },
+    "webshot": {
+      "url": "يرجى تحديد رابط الموقع."
+    },
+    "slowmode":{
+      "number": "يرجا تحديد الرقم.",
+      "limit":"الحد الاقصى لتحديد الرقم هو 10.",
+      "confirmed":"تم تعيين الحد بنجاح إلى %limit% ثانية."
+    }
+  },
+  "FR": {
+    "anime": {
+      "name": "Nom",
+      "status": "Status",
+      "synonyms": "Synonyme",
+      "MALrating": "MAL",
+      "episodes": "Nombre d'épisodes",
+      "type": "Type",
+      "tags": "Tags",
+      "episodetime": "Durée d'un épisode",
+      "MALladder": "Classement MAL Anime",
+      "source": "Source",
+      "agerating": "Classement d'age",
+      "MALpage": "Page MAL de l'anime",
+      "trailer": "Bande-annonce",
+      "warning": "Si la commande ne retourne rien, cela signifie que votre recherche n'a donné a rien.",
+      "nosynonym": "Cet anime n'a pas de synonymes.",
+      "notrailer": "Pas de bande annonce pour cet anime.",
+      "footer": "Données depuis le site web MAL"
+    },
+    "afk": {
+      "reason": "Veuillez spécifier une raison d'être AFK.",
+      "confirmed": "Vous êtes maintenant marqué comme AFK. Si quelqu'un essaye de vous mentionner pendant que vous n'êtes pas la, je lui ferais savoir. Le mode AFK sera desactivé quand vous enverrez un nouveau message."
+    },
+    "ban": {
+      "member": "Veuillez specifier un membre a bannir.",
+      "reason": "Veuillez specifier une raison pour le banissement.",
+      "memberSend": "Vous avez été banni de %guild% pour: %reason%",
+      "guildSend": "%member% a été banni pour %reason%"
+    },
+    "kick": {
+      "member": "Veuillez specifier un membre a expulser.",
+      "reason": "Veuillez specifier une raison pour l'expulsion.",
+      "memberSend": "Vous avez été expulsé de %guild% pour: %reason%",
+      "guildSend": "%member% a été expulsé pour %reason%"
+    },
+    "date": {
+      "spring": "Printemps",
+      "summer": "Eté",
+      "autmn": "Automne",
+      "winter": "Hiver",
+		  "date": "Date",
+      "currentSeason": "Saison en cours",
+      "fullDate": "Date complète"
+    },
+    "mute": {
+      "member": "Veuillez specifier un membre a rendre muet.",
+      "muteTime": "Veuillez specifier une durée.",
+      "role": "Je ne peut pas trouver le role `Muted`.",
+      "mutedMsg": "%member% est maintenant muet.",
+      "unmutedMsg": "%member% n'est plus muet."
+    },
+    "purge": {
+      "count": "Veuillez specifier un nombre entre 1 et 100 pour le nombres de messages a suprimmer.",
+      "error": "Supression impossible: %err%"
+    },
+    "help": {
+      "description1": "Pour plus d'informations, faites `%help% <command>`",
+      "description2": "Exemple %example%"
+    },
+    "webshot": {
+      "url": "Veuillez specifier une URL."
+    },
+    "slowmode":{
+    "number": "Veuillez specifier un nombre.",
+    "limit":"Le maximum est de 10.",
+    "confirmed":"La limite a bien été mise sur %limit% secondes."
+    }
+
+  },
+  "KO": {
+    "anime": {
+      "name": "이름",
+      "status": "지위",
+      "synonyms": "동의어",
+      "MALrating": "MAL 등급",
+      "episodes": "에피소드 수",
+      "type": "유형",
+      "tags": "태그",
+      "episodetime": "에피소드 기간",
+      "MALladder": "MAL 애니메이션 평점",
+      "source": "출처",
+      "agerating": "연령 등급",
+      "MALpage": "애니메이션 MAL 페이지",
+      "trailer": "트레일러",
+      "warning": "명령이 값을 반환하지 않으면 검색이 아무것도 일치하지 않는다는 의미입니다.",
+      "nosynonym": "이 애니메이션에는 동의어가 없습니다.",
+      "notrailer": "이 애니메이션에 대한 예고편 없음.",
+		"footer": "MAL 웹 사이트의 데이터 없음"
+    },
+    "afk": {
+      "reason": "AFK가 될 이유를 지정하십시오.",
+      "confirmed": "나는 너를 AFK로 세웠다. 너가 떠나있는 동안 누군가가 너를 언급하면, 나는 그에게 알릴 것이다. 일단 돌아와서 아무 데나 메시지를 보내면 AFK 모드가 비활성화됩니다."
+  },
+    "ban": {
+      "member": "금지하려는 사용자를 지정하십시오.",
+      "reason": "해당 사용자를 추방 할 이유를 지정하십시오.",
+      "memberSend": "추방되었습니다 : %guild% : %reason%",
+      "guildSend": "%reason%의 %member%을 (를) 성공적으로 금지했습니다."
+  },
+    "kick": {
+        "member": "걷어차려는 사용자를 지정하십시오.",
+        "reason": "이 사용자를 걷어차기를 원하는 이유를 지정하십시오.",
+        "memberSend": "당신은 %guild%에서 쫓겨났습니다. 이유 : %reason%",
+        "guildSend": "%member%을 (를) 성공걷어차 진작했습니다  %reason%에 대한"
+    },
+    "date": {
+      "spring": "봄",
+      "summer": "여름",
+      "autmn": "가을",
+      "winter": "겨울",
+      "date": "날짜",
+      "currentSeason": "현재 시즌",
+      "fullDate": "완전한 날짜"   
+    },
+    "mute": {
+      "member": "음소거 할 구성원을 선택하십시오.",
+      "muteTime": "음소거 지속 시간을 지정하십시오.",
+      "role": "`Muted` 역할을 찾을 수 없습니다.",
+      "mutedMsg": "%member%이 (가) 음소거되었습니다.",
+      "unmutedMsg": "%member%의 음소거가 해제되었습니다."
+    },
+    "purge": {
+      "count": "삭제할 메시지 수에 1에서 100 사이의 숫자를 입력하십시오.",
+      "error": "메시지를 삭제할 수 없습니다: %err%"
+    },
+    "help": {
+      "description1": "명령 사용에 대한 자세한 정보는 `%help% <command>`를 참조하십시오.",
+      "description2": "예 : %example%"
+    },
+    "webshot": {
+      "url": "웹 사이트 URL을 지정하십시오."
+    },
+    "slowmode":{
+    "number": "번호를 지정하십시오.",
+    "limit":"한계는 최대 10 자까지 가능합니다.",
+    "confirmed":"한계가 %limit% 초로 성공적으로 설정되었습니다."
+    }
+  },
+  "EO": {
+    "anime": {
+      "name": "Nomo",
+      "status": "Stato",
+      "synonyms": "Sinónimo",
+      "MALrating": "MAL",
+      "episodes": "Nombro da epizodoj",
+      "type": "Tipo",
+      "tags": "Etikedoj",
+      "episodetime": "Daŭro de epizodo",
+      "MALladder": "MAL-rangotabelo",
+      "source": "Fonto",
+      "agerating": "Aĝo-rangigo",
+      "MALpage": "MAL-paĝo de la animeo",
+      "trailer": "Antaŭfilmo",
+      "warning": "Se la komando nenion redonas, tio signifas, ke via serĉo ne donis ion ajn.",
+      "nosynonym": "Ĉi tiu animeo ne havas iujn ajn sinonimojn.",
+      "notrailer": "Neniuj antaŭfilmoj trovitaj por ĉi tiu animeo.",
+		"footer": "Datumoj de la MAL-retejo"
+    },
+    "afk": {
+      "reason": "Bonvolu indiki, kial vi volas esti AFK.",
+      "confirmed": "Mi starigis vin kiel AFK. Se iu mencias vin dum via foresto, mi informos ilin. AFK-maniero ĉesos kiam vi revenos kaj sendos mesaĝon ie ajn."
+    },
+    "ban": {
+      "member": "Specifu la uzanton, kiun vi volas malpermesi.",
+      "reason": "Indiku la kialon, ke la uzanto estos malpermesita.",
+      "memberSend": "Vi estis malpermesita en %guild% kialo: %reason%",
+      "guildSend": "Malpermesis %member% for %reason%"
+    },
+    "kick": {
+      "member": "Specifu la uzanton, kiun vi volas piedbati.",
+      "reason": "Indiku la kialon, ke la uzanto estos forpelita.",
+      "memberSend": "Vi estis forpelita de %guild% kialo: %reason%.",
+      "guildSend": "Sukcese piedbatis %membro% por %reason%."
+    },
+    "date": {
+      "spring": "Printempo",
+      "summer": "Somero",
+      "autmn": "Aŭtuno",
+      "winter": "Vintro",
+      "date": "Dato",
+      "currentSeason": "Aktuala Sezono",
+      "fullDate": "Plena Datumo"
+    },
+    "mute": {
+      "member": "Elektu la membron, kiun vi volas silentigi.",
+      "muteTime": "Indiku la silentigi daŭro.",
+      "role": "Mi ne povas trovi `Muted` rolon.",
+      "mutedMsg": "%member% estas silentigita.",
+      "unmutedMsg": "%member% ... estas un-silentigita."
+    },
+    "purge": {
+      "count": "Bonvolu provizi numeron inter 1 kaj 100 por la nombro de forigendaj mesaĝoj.",
+      "error": "Ne povis forigi mesaĝojn pro: %err%"
+    },
+    "help": {
+      "description1": "Por pliaj informoj pri komando, `%help% <command>`",
+      "description2": "Ekzemplo %example%"
+    },
+    "webshot": {
+      "url": "Bonvolu specifi retejan URL."
+    },
+    "slowmode":{
+    "number": "Bonvolu specifi numeron.",
+    "limit":"La limo povas esti maksimume 10.",
+    "confirmed":"La limo estis sukcese agordita al %limit% second."
+    }
+  }
+}
